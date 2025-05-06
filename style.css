@@ -22,7 +22,7 @@ body {
 }
 
 #header-image {
-  width: 400px;
+  max-width: 300px;
   text-align: center;
   justify-content: center;
   padding: 0px 0px 16px 0px;
@@ -88,8 +88,8 @@ footer {
 footer img {
   margin: auto;
   margin-top: 40px;
-  width: 463px;
-  height: 100px;
+  max-width: 363px;
+  max-height: 100px;
 }
 
 footer p {
