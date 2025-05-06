@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  background-image: url(./ASSETS/bg-2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+
+#header {
+  display: block;
+  text-align: center;
+  justify-content: space-between;
+}
+
+#header-image {
+  width: 400px;
+  text-align: center;
+  justify-content: center;
+  padding: 0px 0px 16px 0px;
+}
+
+#header-description {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: #ffd6d6;
+  padding-bottom: 24px;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 24px 0;
+}
+
+ul li a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 20px 24px;
+  max-width: 345px;
+  margin: 0px auto;
+
+  background: rgba(223, 161, 161, 40%);
+  border: 1px solid rgba(255, 214, 214, 40%);
+  border-radius: 20px;
+
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  font-family: "Open Sans", sans-serif;
+  color: #ffd6d6;
+  letter-spacing: 3px;
+
+  text-decoration: none;
+  font-weight: 500;
+
+  transition: 0.7s;
+}
+
+ul li a:hover {
+  background: rgba(223, 161, 161, 100%);
+  border: 1px solid rgba(255, 214, 214, 40%);
+  color: #905858;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  color: #ffd6d6;
+}
+
+footer img {
+  margin: auto;
+  margin-top: 40px;
+  width: 463px;
+  height: 100px;
+}
+
+footer p {
+  margin: auto;
+  font-weight: 400;
+}
+
+#adress {
+  display: flex;
+  text-align: center;
+  text-decoration: none;
+  color: #ffd6d6;
+  letter-spacing: 3px;
+  font-size: 14px;
+  padding: 10px 0px;
+  max-width: 550px;
+  border-radius: 10px;
+  margin: 16px auto;
+}
+
+#adress:hover {
+  color: #905858;
+  border-radius: 10px;
+  padding: 10px 5px;
+  transition: 1s;
+}
+
+#credits {
+  font-size: 10px;
+  font-weight: 300;
+  letter-spacing: 3px;
+  margin-top: 78px;
+}
